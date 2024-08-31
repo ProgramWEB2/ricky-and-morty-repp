@@ -1,0 +1,76 @@
+/* Estilos básicos para las cartas */
+.character-card {
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.h1 {
+    color: rgb(29, 43, 43);
+    display: grid;
+}
+
+.character-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.characters-container {
+    color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Muestra 4 columnas por fila */
+    gap: 20px; /* Espacio entre las cartas */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total del contenedor */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Opcional: Establece un ancho máximo para mejorar el diseño en pantallas grandes */
+    margin: 0 auto; /* Opcional: Centra el contenedor horizontalmente */
+}
+
+/* Media query para pantallas más pequeñas (dispositivos móviles) */
+@media (max-width:1000px) {
+    .characters-container {
+        grid-template-columns: repeat(3, 1fr); /* Muestra 3 columnas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 800px) {
+    .characters-container {
+        grid-template-columns: repeat(2, 1fr); /* Muestra 2 columnas por fila en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 500px) {
+    .characters-container {
+        grid-template-columns: 1fr; /* Muestra 1 columna por fila en pantallas muy pequeñas */
+    }
+}
+
+
+
+/* Media query para pantallas más pequeñas (dispositivos móviles) */
+@media (max-width: 800px) {
+    .characters-container {
+        grid-template-columns: repeat(2, 1fr); /* Muestra dos columnas en pantallas pequeñas */
+        width: auto;
+    }
+
+    .character-card {
+        padding: 15px; /* Ajusta el padding si es necesario */
+    }
+
+    .character-card h2 {
+        font-size: 1.5em;
+    }
+
+    .character-card p {
+        font-size: 1em;
+    }
+}
