@@ -1,0 +1,40 @@
+{
+    "personalInfo": {
+        "name": "Cristian Daniel Zamora",
+        "title": "Ingeniero de redes",
+        "email": "zamoracristian570@gmail.com",
+        "phone": "+57 314 559 7122",
+        "location": "Cali  , Colombia",
+        "profilePic": "path/to/profile-pic.jpg" 
+    },
+    "skills": ["JavaScript", "HTML", "CSS", "React", "Node.js"],
+    "experience": [
+        {
+            "jobTitle": "Desarrollador Front-End",
+            "company": "Analist technology",
+            "duration": "Octubre 2023 - Presente",
+            "responsibilities": [
+                "Desarrollo de aplicaciones web usando React.",
+                "Colaboración con equipos de diseño y backend.",
+                "Optimización del rendimiento de la aplicación."
+            ]
+        },
+        {
+            "jobTitle": "Desarrollador Junior",
+            "company": "Web Creators",
+            "duration": "Jun 2019 - Dic 2020",
+            "responsibilities": [
+                "Creación de interfaces de usuario usando HTML, CSS y JavaScript.",
+                "Participación en el diseño y desarrollo de nuevas características.",
+                "Pruebas y depuración de aplicaciones web."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Licenciatura en Ciencias de la Computación",
+            "institution": "Universidad Santiago de Cali",
+            "graduationYear": "2019"
+        }
+    ]
+}
